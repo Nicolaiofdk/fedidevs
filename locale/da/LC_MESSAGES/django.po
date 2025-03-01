@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Fedidevs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-28 01:39+0000\n"
-"PO-Revision-Date: 2025-02-28 13:07+0100\n"
+"PO-Revision-Date: 2025-03-01 12:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: Cuti.ee\n"
 "Language: da\n"
@@ -109,7 +109,7 @@ msgstr "Følger"
 
 #: accounts/templates/v2/accounts.html:134
 msgid "No accounts found."
-msgstr "Der blev ikke fundet nogle kontoer "
+msgstr "Der blev ikke fundet nogle kontoer. "
 
 #: accounts/templates/v2/accounts.html:134
 msgid "Reset the filters"
@@ -174,7 +174,7 @@ msgstr "FAQ - Ofte spurgte spørgsmål"
 
 #: accounts/templates/v2/layout.html:339
 msgid "Mastodon instances"
-msgstr "Mastodon instanceser"
+msgstr "Mastodon instanser"
 
 #: accounts/templates/v2/layout.html:342
 msgid "Newsletter"
@@ -196,8 +196,8 @@ msgstr "Netværksfejl, er instans url-adressen korrekt?"
 msgid ""
 "Unable to create app on your instance. Is it a Mastodon compatible instance?"
 msgstr ""
-"Det var ikke muligt at lave app på din instans. Er det en Mastodon "
-"kompatibel instans?"
+"Det var ikke muligt at lave app på din instans. Er det en Mastodon kompatibel "
+"instans?"
 
 #: mastodon_auth/views.py:135 mastodon_auth/views.py:140
 msgid "Invalid request, please try again"
@@ -253,8 +253,7 @@ msgstr ""
 #: starter_packs/templates/add_accounts_list.html:28
 #: starter_packs/templates/review_starter_pack_list.html:28
 msgid ""
-"⚠️ The account has not opted in for search engine indexing and cannot be "
-"added."
+"⚠️ The account has not opted in for search engine indexing and cannot be added."
 msgstr ""
 "⚠️ Kontoen har fravalgt søgemaaskine indexering. Den kan derfor ikke tilføjes."
 
@@ -280,9 +279,8 @@ msgstr "Der blev ikke fundet nogle resultater 😞"
 
 #: starter_packs/templates/add_accounts_list.html:70
 msgid ""
-"We couldn't find any accounts matching your query in the Fedidevs database "
-"or at the instance itself. Double check the username and instance and try "
-"again."
+"We couldn't find any accounts matching your query in the Fedidevs database or "
+"at the instance itself. Double check the username and instance and try again."
 msgstr ""
 "Vi kunne ikke finde nogle kontoer som matcher din søgning i Fedidevs "
 "databaser eller på instansen. Dobbelt check om brugernavn og instans er "
@@ -290,8 +288,8 @@ msgstr ""
 
 #: starter_packs/templates/add_accounts_list.html:73
 msgid ""
-"<strong>Note:</strong> Only <strong>Mastodon</strong> instances are "
-"supported at the moment."
+"<strong>Note:</strong> Only <strong>Mastodon</strong> instances are supported "
+"at the moment."
 msgstr ""
 "<strong>Note:</strong> Kun <strong>Mastodon</strong> instanser understøttes "
 "for tiden."
@@ -302,8 +300,8 @@ msgid ""
 "<strong>Tip:</strong> Reach out to us through <a href=\"%(mail)s\">email</a> "
 "or <a href=\"%(url)s\">Mastodon</a> and we'll try to help you out!"
 msgstr ""
-"<strong>Tip:</strong> Tag fat i os via: <a href=“%(mail)s”>email</a> eller "
-"<a href=“%(url)s”>Mastodon</a>  Så prøver vi at løse det med dig."
+"<strong>Tip:</strong> Tag fat i os via: <a href=“%(mail)s”>email</a> eller <a "
+"href=“%(url)s”>Mastodon</a>  Så prøver vi at løse det med dig."
 
 #: starter_packs/templates/add_accounts_list.html:89
 msgid ""
@@ -344,7 +342,7 @@ msgstr "af"
 
 #: starter_packs/templates/cotton/starter_pack_card.html:26
 msgid "Created"
-msgstr "Lavet"
+msgstr "Lavet for"
 
 #: starter_packs/templates/create_starter_pack.html:6
 #: starter_packs/templates/starter_packs.html:123
@@ -386,15 +384,14 @@ msgstr "Ja, slet"
 
 #: starter_packs/templates/review_starter_pack.html:9
 #, python-format
-msgid ""
-"Review accounts or <a href=\"%(url)s\">go back</a> to add more accounts."
+msgid "Review accounts or <a href=\"%(url)s\">go back</a> to add more accounts."
 msgstr ""
-"Gennemgå konti eller <a href=“%(url)s”>gå tilbage</a> for at tilføje flere "
-"konti."
+"Gennemgå kontoer eller <a href=“%(url)s”>gå tilbage</a> for at tilføje flere "
+"kontoer."
 
 #: starter_packs/templates/review_starter_pack_list.html:55
 msgid "No accounts in this starter pack"
-msgstr "Der er ingen konti i denne startpakke"
+msgstr "Der er ingen kontoer i denne startpakke"
 
 #: starter_packs/templates/share_starter_pack.html:10
 msgid "Not published!"
@@ -419,15 +416,15 @@ msgstr "Offentliggør nu"
 msgid "Follow %(count)s account"
 msgid_plural "Follow all %(count)s accounts"
 msgstr[0] "Følg %(count)s konto"
-msgstr[1] "Følg alle %(count)s konti"
+msgstr[1] "Følg alle %(count)s kontoer"
 
 #: starter_packs/templates/share_starter_pack.html:75
 msgid "Add Accounts"
-msgstr "Tilføj konti"
+msgstr "Tilføj kontoer"
 
 #: starter_packs/templates/share_starter_pack.html:79
 msgid "Review Accounts"
-msgstr "Gennemgå konti"
+msgstr "Gennemgå kontoer"
 
 #: starter_packs/templates/share_starter_pack.html:83
 msgid "Edit"
@@ -447,15 +444,14 @@ msgstr "Rapporter"
 
 #: starter_packs/templates/share_starter_pack.html:119
 #, python-format
-msgid ""
-"<strong>%(count)s</strong> account hidden due to their privacy settings."
+msgid "<strong>%(count)s</strong> account hidden due to their privacy settings."
 msgid_plural ""
 "<strong>%(count)s</strong> accounts hidden due to their privacy settings."
 msgstr[0] ""
 "<strong>%(count)s</strong> kontoen er skjult på grund af deres "
 "privatlivsindstillinger."
 msgstr[1] ""
-"<strong>%(count)s</strong> kontierne er skjult på grund af deres "
+"<strong>%(count)s</strong> kontoerne er skjult på grund af deres "
 "privatlivsindstillinger."
 
 #: starter_packs/templates/starter_pack_accounts.html:59
@@ -473,7 +469,7 @@ msgstr "Skift til Menneske"
 msgid "%(counter)s account in your starter pack."
 msgid_plural "%(counter)s accounts in your starter pack."
 msgstr[0] "%(counter)s konto i din startpakke"
-msgstr[1] "%(counter)s konti i din startpakke."
+msgstr[1] "%(counter)s kontoer i din startpakke."
 
 #: starter_packs/templates/starter_pack_stats.html:17
 #: starter_packs/templates/starter_pack_stats.html:21
@@ -500,7 +496,7 @@ msgstr "Startpakker du er en del af"
 #: starter_packs/templates/starter_packs.html:44
 #: starter_packs/templates/starter_packs.html:68
 msgid "Go"
-msgstr "Go"
+msgstr "Søg"
 
 #: starter_packs/templates/starter_packs.html:73
 msgid "Search..."
@@ -532,12 +528,12 @@ msgstr "Du er ikke blevet tilføjet til nogle startpakker endnu."
 
 #: starter_packs/templates/starter_packs.html:124
 msgid "Invite your friends to follow your favorite people on Mastodon."
-msgstr "Inviter dine venner til at følge dine ynglings mennsker på Mastodon."
+msgstr "Inviter dine venner til at følge dine ynglings mennesker på Mastodon."
 
 #: starter_packs/templates/starter_packs.html:132
 #: starter_packs/templates/starter_packs.html:136
 msgid "Create your starter pack"
-msgstr "Lav din startpakke"
+msgstr "Lav din egen startpakke"
 
 #: starter_packs/views.py:94
 msgid "Mastodon Starter Pack Directory | Fedidevs"
@@ -548,12 +544,12 @@ msgid ""
 "Discover, create, and share Mastodon starter packs to help new users find "
 "interesting accounts to follow."
 msgstr ""
-"Opdag, lav og del Mastodon startpakker for at hjælpe nye brugere med at "
-"finde interessante konti at følge."
+"Opdag, lav og del Mastodon startpakker for at hjælpe nye brugere med at finde "
+"interessante kontoer at følge."
 
 #: starter_packs/views.py:159 starter_packs/views.py:195
 msgid "Add accounts to your starter pack"
-msgstr "Tilføj konti til dine startpakker"
+msgstr "Tilføj kontoer til dine startpakker"
 
 #: starter_packs/views.py:242
 msgid "Review your starter pack"
@@ -572,7 +568,7 @@ msgid ""
 "Edit your starter pack to help new users find interesting accounts to follow."
 msgstr ""
 "Rediger din startpakke for at hjælpe nye brugere med at finde interessante "
-"konti at følge."
+"kontoer at følge."
 
 #: starter_packs/views.py:300
 msgid "You already have a starter pack with this title."
@@ -588,15 +584,14 @@ msgid ""
 "follow."
 msgstr ""
 "Lav en ny startpakke for at hjælpe nye brugere med at finde interessante "
-"konti at følge."
+"kontoer at følge."
 
 #: starter_packs/views.py:353
 msgid "You have reached the maximum number of accounts in a starter pack."
-msgstr "Du har nået det højeste antal konti du kan have i en startpakke."
+msgstr "Du har nået det højeste antal kontoer du kan have i en startpakke."
 
 #: starter_packs/views.py:363
-msgid ""
-"The account cannot be added to the starter pack due to privacy settings."
+msgid "The account cannot be added to the starter pack due to privacy settings."
 msgstr ""
 "Kontoen kan ikke tilføjes til startpakken på grund af deres "
 "privatlivsindstillinger."
@@ -607,4 +602,4 @@ msgstr "- Mastodon Startpakker"
 
 #: starter_packs/views.py:463
 msgid "Following all accounts in the starter pack. 🎉"
-msgstr "Følg alle konti i denne startpakke. 🎉"
+msgstr "Følg alle kontoer i denne startpakke. 🎉"
